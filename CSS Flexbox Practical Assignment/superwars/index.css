@@ -1,0 +1,30 @@
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+}
+.card{
+    border: 1px solid rgb(164, 158, 158);
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card h1{
+    margin-top: -10%;
+    font-size: 40px;
+}
+.middle h1{
+    font-size: 50px;
+
+}
