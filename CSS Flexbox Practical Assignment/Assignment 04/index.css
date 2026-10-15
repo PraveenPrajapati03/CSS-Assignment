@@ -1,0 +1,167 @@
+.main {
+    height: 450px;
+    width: 450px;
+}
+
+.section1 {
+    height: 40%;
+    display: flex;
+}
+
+.section2 {
+    height: 20%;
+    display: flex;
+}
+
+.section3 {
+    height: 40%;
+    display: flex;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.home-red {
+    background-color: red;
+}
+
+.home-green {
+    background-color: green;
+}
+
+.home-blue {
+    background-color: blue;
+}
+
+.home-yellow {
+    background-color: yellow;
+}
+
+.homein {
+    width: 66.67%;
+    height: 66.67%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.circle {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.circle-red {
+    border: 3px solid red;
+}
+
+.circle-green {
+    border: 3px solid green;
+}
+
+.circle-blue {
+    border: 3px solid blue;
+}
+
+.circle-yellow {
+    border: 3px solid yellow;
+}
+
+.pathv {
+    width: 20%;
+}
+
+.path {
+    width: 40%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+}
+
+table td {
+    border: 2px solid;
+}
+
+.greenpath {
+    background-color: green;
+}
+
+.star {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.pstar {
+    height: 16%;
+    width: 33%;
+}
+
+.hstar {
+    width: 16%;
+    height: 33%;
+}
+
+.bluepath {
+    background-color: blue;
+}
+
+.redpath {
+    background-color: red;
+}
+
+.yellowpath {
+    background-color: yellow;
+}
+
+.center {
+    position: relative;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.triangleb {
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    background-color: blue;
+    bottom: 0;
+
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.triangleg {
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    background-color: green;
+
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+}
+.triangley {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background-color: yellow;
+    right: 0;
+
+    clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+}
+.triangler {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background-color: red;
+
+    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+}
