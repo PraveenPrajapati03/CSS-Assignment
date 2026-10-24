@@ -1,0 +1,46 @@
+header{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+.homepage{
+    height: 400px;
+    background-image: url("https://github.com/codinggita/CGxSU_Semester_1/blob/main/Semester_1/html_css_js(sem_01)/CSS/00.assignment/02.level_2/07.kidz-world/assets/kw-background.png?raw=true");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-weight: 600;
+    color: white;
+    line-height: 65px;
+    font-size: 55px;
+}
+.text{
+    margin-left: 80px;
+    margin-top: 60px;
+    position: absolute;
+}
+.top{
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-evenly;
+}
+.tcard{
+    width: 13%;
+    position: relative;
+    line-height: 0.1px;
+}
+.tfoot{
+    display: flex;
+    justify-content: space-between;
+}
+.tbtn{
+    background-color: #6196FF;
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5%;
+}

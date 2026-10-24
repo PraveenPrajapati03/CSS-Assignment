@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.page{
+    background-color: black;
+    height: 100vh;
+    border: 2px solid;
+    display: grid;
+    grid-template: 
+                    "sidebar header1" 0.75fr
+                    "sidebar header2" 0.75fr
+                    "sidebar main"10fr
+                    /15%;
+}
+.header {
+    grid-area: header1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2% 0 13%;
+    border-bottom: 1px solid #272727;
+    position: sticky;
+}
+.search {
+    display: flex;
+    align-items: center;
+    height: 85%;
+    width: 55%;
+}
+.search input {
+    height: 85%;
+    width: 90%;
+    background: #121212;
+    color: white;
+    border: 1px solid #303030;
+    border-radius: 2px 0 0 2px;
+    padding: 0 6px;
+    font-size: 14px;
+}
+.search input::placeholder {
+    color: #aaa;
+}
+.search-btn {
+    height: 85%;
+    width: 10%;
+    background: #222;
+    color: #eee;
+    border: 1px solid #303030;
+    cursor: pointer;
+    border-radius:0 2px 2px 0;
+}
+.right-icons {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.categories {
+    grid-area: header2;
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    overflow-x: auto;
+    white-space: nowrap;
+    border-bottom: 1px solid #303030;
+    scrollbar-width: none;
+    padding-left: 2%;
+}
+.category {
+    padding: 6px 12px;
+    border-radius: 8px;
+    background: #272727;
+    color: #f1f1f1;
+    font-size: 12px;
+    cursor: pointer;
+}
+.category:hover {
+    background: #414141;
+}
+.category.active {
+    background: #f1f1f1;
+    color: #0f0f0f;
+}
+.sidebar{
+    grid-area: sidebar;
+}
+.sheading{
+    margin: 10%;
+    display: flex;
+    gap: 10%;
+}
+.sf{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 12.5%;
+}
+.sf div{
+    display: flex;
+    gap: 10%;
+    margin-left: 20px;
+    align-items: center;
+    color: white;
+}
+.ss{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 12.5%;
+    margin-top: 12.5%;
+}
+.ss div{
+    display: flex;
+    gap: 10%;
+    margin-left: 20px;
+    align-items: center;
+    color: white;
+}
+.st{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 12.5%;
+    color: white;
+}
+.st>p{
+    margin-left: 20px;
+}
+.st div{
+    display: flex;
+    gap: 10%;
+    margin-left: 20px;
+    align-items: center;
+    color: white;
+}
+.main{
+    grid-area: main;
+    overflow: auto;
+    scrollbar-width: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2% 2%;
+}
+.card{
+    width: 22%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+}
+.cardimg{
+    width: 100%;
+    gap: 5% 0;
+}
+.cinfo{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+.ccinfo{
+    display: flex;
+    align-items: center;
+}
+.extrainfo{
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    font-family: sans-serif;
+}
