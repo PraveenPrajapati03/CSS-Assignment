@@ -1,163 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mohit Kumar</title>
     <link rel="stylesheet" href="index.css">
 </head>
-
 <body>
-    <div class="amazonmain">
-        <header>
-            <div class="headersection">
-                <div class="logo">
-                    <img src="assets/logo.png" alt="">
-
+    <div class="container">
+        <div id="header">
+            <div id="amazon-header-logo"></div>
+            <div id="header-location-container">
+                <div id="location-icon">
+                    <img src="https://github.com/codinggita/CGxSU_Semester_1/blob/main/Semester_1/html_css_js(sem_01)/CSS/00.assignment/02.level_2/09.amazon-clone/assets/location.png?raw=true" alt="">
                 </div>
-                <div class="headerlocation">
-                    <img src="assets/location.png" style="height: 30px;" alt="">
-                    <p style="color: white;"><small>Hello</small> <br>Select your adderss</p>
+                <div id="location-text-box">
+                    <p id="hello-text">Hello</p>
+                    <p>Select your address</p>
                 </div>
-                <div class="inputbar">
-                    <div class="inputleft">
-                        <p style="color: lightslategrey;">All</p>
-                        <img src="assets/down arrow.png" alt="" style="height: 10px;">
-                    </div>
-                    <input type="search" name="search" id="search">
-                    <div class="inputright">
-                        <img src="assets/search icon.png" alt="">
-
-                    </div>
-                </div>
-                <div class="indiaflag">
-                    <img src="assets/indian flag.png" alt="">
-                    <img src="assets/down arrow.png" alt="">
-                </div>
-                <div class="signabr">
-                    <p>Hello,Sign in <br>Account & Lists <img src="assets/down arrow.png" alt=""></p>
-                </div>
-                <div class="orderbar">
-                    <p>Return <br>& Orders</p>
-                </div>
-                <div class="cart"><img src="assets/cart icon.png" alt=""></div>
             </div>
-            <nav>
-                <div class="navlinks">
-                    <ul>
-                        <li class="links"><a href=""><img src="assets/ham burger icon.png" alt="">&nbsp;&nbsp;All</a>
-                        </li>
-                        <li class="links"><a href="">Best Sellers</a></li>
-                        <li class="links"><a href="">Mobiles</a></li>
-                        <li class="links"><a href="">Customer Service</a></li>
-                        <li class="links"><a href="">Today's Deals</a></li>
-                        <li class="links"><a href="">Fashion</a></li>
-                        <li class="links"><a href="">Electronics</a></li>
-                        <li class="links"><a href="">Books</a></li>
-                        <li class="links"><a href="">Prime <img src="assets/down arrow.png" alt=""></a></li>
-                        <li class="links"><a href="">New Releses</a></li>
-                        <li class="links"><a href="">Home & Kitchen</a></li>
-                        <li class="links"><a href="">Amazon Pay</a></li>
-                    </ul>
+            <div id="header-search-container">
+                <div id="searchbar-search-all-option">
+                    <p>All</p>
+                    <img src="https://github.com/codinggita/CGxSU_Semester_1/blob/main/Semester_1/html_css_js(sem_01)/CSS/00.assignment/02.level_2/09.amazon-clone/assets/down%20arrow.png?raw=true" alt="">
                 </div>
-                <div class="hotbar">
-                    <div class="lion">
-                        <img src="assets/lion.png" alt="">
-                    </div>
-                    <div class="hotbardetail">
-                        <div>
-                            <p>Prime day</p>
-                            <img src="assets/amazon design.png" alt="">
-                        </div>
-                        <p>23 <sup>nd</sup>-24 <sup>th</sup>July</p>
-                    </div>
-                    <div class="tophotright">
-                        <img src="assets/top bar right.png" alt="">
-                    </div>
-                </div>
-            </nav>
-
-        </header>
-
-        <main>
-            <div class="scrole">
-                <img src="assets/left arrow.png" alt="">
-                <img src="assets/right arrow.png" alt="">
+                <div id="searchbar-search-input-bar"></div>
+                <div id="searchbar-search-button"></div>
             </div>
-            <div class="cardsmain">
-                <div class="cards">
-                    <div class="cardheading">
-                        <p>Upgrade your home |Amazon <br>Brands more</p>
+            <div id="header-country-select-container">
+                <div id="india-container"></div>
+                <div class="down-arrow-container"></div>
+            </div>
+            <div id="header-sign-in-container">
+                <div id="sign-in-hello-text">
+                    <p>Hello, Sign in</p>
+                </div>
+                <div id="sign-in-account">
+                    <div id="sign-in-account-text">
+                        <p>Account & Lists</p>
                     </div>
-                    <div class="carditems">
-                        <div class="items">
-                            <img src="assets/image 17.png" alt="">
-                            <p>Smart LED TV<sub>s</sub></p>
-                        </div>
-                        <div class="items"><img src="assets/image 18.png" alt="">
-                            <p>Appliances</p>
-                        </div>
-                        <div class="items"><img src="assets/image 20.png" alt="">
-                            <p>Furniture</p>
-                        </div>
-                        <div class="items"><img src="assets/image 19.png" alt="">
-                            <p>Kitchen products</p>
-                        </div>
-                    </div>
-                    <div class="cardfooteer">
-                        <p>Shop now</p>
+                    <div class="down-arrow-container"></div>
+                </div>
+            </div>
+            <div id="header-return-order-container">
+                <p>Returns</p>
+                <p>& Orders</p>
+            </div>
+            <div id="header-cart-container">
+                <div id="cart-icon-container"></div>
+                <p id="cart-text">Cart</p>
+            </div>
+        </div>
+        <div id="navbar">
+            <div id="navbar-list-container">
+                <ul id="navbar-list">
+                    <li class="navbar-link">
+                        <img src="https://github.com/codinggita/CGxSU_Semester_1/blob/main/Semester_1/html_css_js(sem_01)/CSS/00.assignment/02.level_2/09.amazon-clone/assets/ham%20burger%20icon.png?raw=true" alt="">
+                        <p class="navbar-link-text">All</p>
+                    </li>
+                    <li class="navbar-link">
+                        <p class="navbar-link-text">Best Sellers</p>
+                    </li>
+                    <li class="navbar-link">
+                        <p class="navbar-link-text">Mobiles</p>
+                    </li>
+                    <li class="navbar-link">
+                        <p class="navbar-link-text">Customer Service</p>
+                    </li>
+                    <li class="navbar-link">
+                        <p class="navbar-link-text">Today's Deals</p>
+                    </li>
+                    <li class="navbar-link">
+                        <p class="navbar-link-text">Fashion</p>
+                    </li>
+                    <li class="navbar-link">
+                        <p class="navbar-link-text">Electronics</p>
+                    </li>
+                    <li class="navbar-link">
+                        <p class="navbar-link-text">Books</p>
+                    </li>
+                    <li class="navbar-link">
+                        <p class="navbar-link-text">Prime</p>
+                        <img id="dropdown-img" src="https://github.com/codinggita/CGxSU_Semester_1/blob/main/Semester_1/html_css_js(sem_01)/CSS/00.assignment/02.level_2/09.amazon-clone/assets/down%20arrow.png?raw=true" alt="">
+                    </li>
+                    <li class="navbar-link">
+                        <p class="navbar-link-text">New Releases</p>
+                    </li>
+                    <li class="navbar-link">
+                        <p class="navbar-link-text">Home & Kitchen</p>
+                    </li>
+                    <li class="navbar-link">
+                        <p class="navbar-link-text">Amazon Pay</p>
+                    </li>
+                </ul>
+            </div>
+            <div id="prime-container">
+                <img src="https://github.com/codinggita/CGxSU_Semester_1/blob/main/Semester_1/html_css_js(sem_01)/CSS/00.assignment/02.level_2/09.amazon-clone/assets/lion.png?raw=true" alt="">
+                <div class="prime-day">
+                    <div id="prime-day-text">
+                        <p>prime day</p>
+                        <img src="https://github.com/codinggita/CGxSU_Semester_1/blob/main/Semester_1/html_css_js(sem_01)/CSS/00.assignment/02.level_2/09.amazon-clone/assets/amazon%20design.png?raw=true" alt="">
                     </div>
                 </div>
-
-                <div class="cards">
-                    <div class="cardheading">
+                <p>23<sup>rd</sup>-24<sup>th</sup> July</p>
+                <img id="navbar-right-button" src="https://github.com/codinggita/CGxSU_Semester_1/blob/main/Semester_1/html_css_js(sem_01)/CSS/00.assignment/02.level_2/09.amazon-clone/assets/top%20bar%20right.png?raw=true" alt="">
+            </div>
+        </div>
+        <div id="main-body">
+            <div id="left-right-button-container">
+                <img src="https://github.com/codinggita/CGxSU_Semester_1/blob/main/Semester_1/html_css_js(sem_01)/CSS/00.assignment/02.level_2/09.amazon-clone/assets/left%20arrow.png?raw=true" alt="">
+                <img src="https://github.com/codinggita/CGxSU_Semester_1/blob/main/Semester_1/html_css_js(sem_01)/CSS/00.assignment/02.level_2/09.amazon-clone/assets/right%20arrow.png?raw=true" alt="">
+            </div>
+            <div id="main-recommendation-container">
+                <div id="recommendation-box-1" class="main-recommendation-box">
+                    <div class="recommendation-title">
+                        <p>Upgrade your home | Amazon Brands & more</p>
+                    </div>
+                    <div class="recommendation-images-container">
+                        <div class="recommendation-box-1-container">
+                            <div class="recommendation-image-box" id="recommendation-box-1-image-1"></div>
+                            <p class="recommendation-box-image-title">Smart LED TVs</p>
+                        </div>
+                        <div class="recommendation-box-1-container">
+                            <div class="recommendation-image-box" id="recommendation-box-1-image-2"></div>
+                            <p class="recommendation-box-image-title">Appliances</p>
+                        </div>
+                        <div class="recommendation-box-1-container">
+                            <div class="recommendation-image-box" id="recommendation-box-1-image-3"></div>
+                            <p class="recommendation-box-image-title">Furniture</p>
+                        </div>
+                        <div class="recommendation-box-1-container">
+                            <div class="recommendation-image-box" id="recommendation-box-1-image-4"></div>
+                            <p class="recommendation-box-image-title">Kitchen products</p>
+                        </div>
+                    </div>
+                    <a href="" class="more-commendation-option">Shop now</a>
+                </div>
+                <div id="recommendation-box-2" class="main-recommendation-box">
+                    <div class="recommendation-title">
                         <p>Revamp your home in style</p>
                     </div>
-                    <div class="carditems">
-                        <div class="items">
-                            <img src="assets/image 25.png" alt="">
-                            <p>Bedsheets ,curtains & <br> more</p>
+                    <div class="recommendation-images-container">
+                        <div class="recommendation-box-2-container">
+                            <div class="recommendation-image-box" id="recommendation-box-2-image-1"></div>
+                            <p class="recommendation-box-image-title">Bedsheets, curtains & more</p>
                         </div>
-                        <div class="items"><img src="assets/image 24.png" alt="">
-                            <p>Home decorations</p>
+                        <div class="recommendation-box-2-container">
+                            <div class="recommendation-image-box" id="recommendation-box-2-image-2"></div>
+                            <p class="recommendation-box-image-title">Home decoration</p>
                         </div>
-                        <div class="items"><img src="assets/image 22.png" alt="">
-                            <p>Home storage</p>
+                        <div class="recommendation-box-2-container">
+                            <div class="recommendation-image-box" id="recommendation-box-2-image-3"></div>
+                            <p class="recommendation-box-image-title">Home storage</p>
                         </div>
-                        <div class="items"><img src="assets/image 21.png" alt="">
-                            <p>Lighting Solutions</p>
+                        <div class="recommendation-box-2-container">
+                            <div class="recommendation-image-box" id="recommendation-box-2-image-4"></div>
+                            <p class="recommendation-box-image-title">Lighting solutions</p>
                         </div>
                     </div>
-                    <div class="cardfooteer">
-                        <p>Explore all</p>
-                    </div>
+                    <a href="" class="more-commendation-option">Explore all</a>
                 </div>
-                <div class="cards">
-                    <div class="cardheading">
-                        <p>Up to 70% off |Cearance store</p>
+                <div id="recommendation-box-3" class="main-recommendation-box">
+                    <div class="recommendation-title">
+                        <p>Upgrade your home | Amazon Brands & more</p>
                     </div>
-                    <div class="carditems">
-                        <div class="items">
-                            <img src="assets/image 26.png" alt="">
-
-                        </div>
-                        <div class="cardfooteer">
-                            <p>See more</p>
+                    <div class="recommendation-images-container">
+                        <div class="recommendation-box-3-container">
+                            <div class="recommendation-image-box" id="recommendation-box-3-image"></div>
                         </div>
                     </div>
+                    <a href="" class="more-commendation-option">Shop now</a>
                 </div>
-                <div class="cards">
-                    <div class="cardheading">
+                <div id="recommendation-box-4" class="main-recommendation-box">
+                    <div id="sign-in-container">
                         <p>Sign in for your best experience</p>
+                        <div id="sign-in-button">
+                            <p>Sign in securely</p>
+                        </div>
                     </div>
-                    <button class="cardbtn">Sign in securely</button>
-                    <img src="assets/image 28.png" alt="">
-
+                    <div id="laptops-advertisement-container"></div>
                 </div>
             </div>
-
-        </main>
+        </div>
     </div>
 </body>
 </html>
