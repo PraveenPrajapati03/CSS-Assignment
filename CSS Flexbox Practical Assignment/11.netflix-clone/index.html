@@ -1,48 +1,162 @@
-﻿<!DOCTYPE html>
+﻿﻿<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohit Kumar</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css" />
 </head>
+
 <body>
-    <div class="container">
-        <div class="header"></div>
-        <div class="main">
-            <div class="score-card" id="india">
-                <p class="score-card-title">IND</p>
-                <div class="score">
-                    <div class="run">4</div>
-                    <div class="run">3</div>
-                    <div class="run">2</div>
-                    <div class="run">6</div>
-                    <div class="run">6</div>
-                    <div class="run">6</div>
-                </div>
-                <div class="total-score">27/0</div>
-            </div>
-            <div class="score-card" id="pakistan">
-                <p class="score-card-title">PAK</p>
-                <div class="score">
-                    <div class="run">2</div>
-                    <div class="run">4</div>
-                    <div class="run">0</div>
-                    <div class="run">3</div>
-                    <div class="run">1</div>
-                    <div class="run">4</div>
-                </div>
-                <div class="total-score">14/0</div>
-            </div>
-        </div>
-        <div class="footer">
-            <div class="button" id="bat">
-                <svg fill="#ffffff" height="50px" width="50px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" transform="rotate(180)" viewBox="0 0 421.47 421.47" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M415.276,61.627L359.829,6.18C355.841,2.195,350.532,0,344.881,0s-10.96,2.194-14.949,6.181L86.029,250.083 c-8.234,8.243-8.233,21.655,0.003,29.899l10.887,10.882l-93.08,93.08c-0.93,0.84-3.664,3.645-3.831,7.678 c-0.076,1.867,0.385,4.646,3.021,7.281l19.448,19.443c2.581,2.582,5.261,3.124,7.055,3.123c4.228,0,7.114-2.85,8.02-3.881 l93.044-93.048l10.886,10.885c3.986,3.99,9.294,6.188,14.947,6.188c5.651,0,10.961-2.197,14.948-6.186l243.9-243.9 c3.994-3.994,6.194-9.302,6.194-14.948C421.47,70.94,419.272,65.631,415.276,61.627z"></path></g> </g></svg>
-            </div>
-            <div class="button" id="retry">
-                <svg width="50px" height="50px" viewBox="-1 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" transform="rotate(310)matrix(-1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>arrow_repeat [#236]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-302.000000, -7080.000000)" fill="#ffffff"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M260,6930 C260,6933 257.308,6936 254,6936 C250.692,6936 248,6933.308 248,6930 C248,6926.692 250.692,6924 254,6924 L254,6926 L259,6923 L254,6920 L254,6922 C249.582,6922 246,6925.582 246,6930 C246,6934.418 249.582,6938 254,6938 C258.418,6938 262,6935 262,6930 L260,6930 Z" id="arrow_repeat-[#236]"> </path> </g> </g> </g> </g></svg>
-            </div>
-        </div>
+  <header class="nav">
+    <div class="nl">
+      <img src="assets/NetflixLogoSvg.png" alt="Netflix" class="logo" />
+      <nav class="menu">
+        <a href="#" class="lnk on">Start</a>
+        <a href="#" class="lnk">Shows</a>
+        <a href="#" class="lnk">Movies</a>
+        <a href="#" class="lnk">New</a>
+        <a href="#" class="lnk">My List</a>
+      </nav>
     </div>
+    <div class="nr">
+      <img src="assets/Search.png" alt="Search" class="ic" />
+      <img src="assets/GiftBox.png" alt="Gift" class="ic" />
+      <img src="assets/NotificationBell.png" alt="Bell" class="ic" />
+      <img src="assets/ProfileIMG.png" alt="User" class="usr" />
+      <img src="assets/DownArrow.png" alt="v" class="arr" />
+    </div>
+  </header>
+  <section class="hero">
+    <div class="hc">
+      <div class="nshow">
+        <img src="assets/Netflix_Symbol_RGB 1.png" alt="N" class="nsym" />
+        <span>SHOW</span>
+      </div>
+      <h1 class="tit">MAID</h1>
+      <div class="btns">
+        <button class="btn ply" type="button">
+          <img src="assets/Play.png" alt=">" />Play
+        </button>
+        <button class="btn inf" type="button">
+          <img src="assets/Detail.png" alt="i" />More info
+        </button>
+      </div>
+    </div>
+  </section>
+  <main class="main">
+    <section class="sec">
+      <h2 class="shd">See again &rsaquo;</h2>
+      <div class="row">
+        <div class="cd">
+          <img src="assets/section 1.1.png" alt="You" class="pic" />
+        </div>
+        <div class="cd">
+          <img src="assets/section 1.2.png" alt="Snowpiercer" class="pic" />
+        </div>
+        <div class="cd">
+          <img src="assets/section 1.3.png" alt="The Universe" class="pic" />
+        </div>
+        <div class="cd">
+          <img src="assets/section 1.4.png" alt="The Last Kingdom" class="pic" />
+        </div>
+        <div class="cd">
+          <img src="assets/section 1.5.png" alt="Money Heist" class="pic" />
+        </div>
+      </div>
+    </section>
+    <section class="sec">
+      <h2 class="shd">Top 10 in your country &rsaquo;</h2>
+      <div class="row">
+        <div class="rcd">
+          <img src="assets/Rank - 01.png" alt="1" class="rnum" /><img src="assets/section 2.1.png" alt="Red Notice"
+            class="rpic" />
+        </div>
+        <div class="rcd">
+          <img src="assets/Rank - 02.png" alt="2" class="rnum" /><img src="assets/section 2.2.png" alt="Jason Bourne"
+            class="rpic" />
+        </div>
+        <div class="rcd">
+          <img src="assets/Rank - 03.png" alt="3" class="rnum" /><img src="assets/section 2.3.png" alt="Squid Game"
+            class="rpic" />
+        </div>
+        <div class="rcd">
+          <img src="assets/Rank - 04.png" alt="4" class="rnum" /><img src="assets/section 2.4.png"
+            alt="Central Intelligence" class="rpic" />
+        </div>
+        <div class="rcd">
+          <img src="assets/Rank - 05.png" alt="5" class="rnum" /><img src="assets/section 2.5.png" alt="Hellbound"
+            class="rpic" />
+        </div>
+      </div>
+    </section>
+    <section class="sec">
+      <h2 class="shd">Trending now &rsaquo;</h2>
+      <div class="row">
+        <div class="cd">
+          <img src="assets/section 3.1.png" alt="Explained" class="pic" />
+        </div>
+        <div class="cd">
+          <img src="assets/section 3.2.png" alt="Into the Night" class="pic" />
+        </div>
+        <div class="cd">
+          <img src="assets/section 3.3.png" alt="Locke &amp; Key" class="pic" />
+        </div>
+        <div class="cd">
+          <img src="assets/section 3.4.png" alt="The Queen's Gambit" class="pic" />
+        </div>
+        <div class="cd">
+          <img src="assets/section 3.5.png" alt="The Crown" class="pic" />
+        </div>
+      </div>
+    </section>
+    <section class="sec">
+      <h2 class="shd">Sci-fi shows &rsaquo;</h2>
+      <div class="row">
+        <div class="cd">
+          <img src="assets/section 4.1.png" alt="Altered Carbon" class="pic" />
+        </div>
+        <div class="cd">
+          <img src="assets/section 4.2.png" alt="Another Life" class="pic" />
+        </div>
+        <div class="cd">
+          <img src="assets/section 4.3.png" alt="The Umbrella Academy" class="pic" />
+        </div>
+        <div class="cd">
+          <img src="assets/section 4.4.png" alt="Sense8" class="pic" />
+        </div>
+        <div class="cd">
+          <img src="assets/section 4.5.png" alt="The Rain" class="pic" />
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="ft">
+    <div class="soc">
+      <img src="assets/facebook.png" alt="FB" class="s-ic" />
+      <img src="assets/instagram.png" alt="IG" class="s-ic" />
+      <img src="assets/twitter.png" alt="TW" class="s-ic" />
+      <img src="assets/youtube.png" alt="YT" class="s-ic" />
+    </div>
+    <div class="f-g">
+      <a href="#" class="f-a">Seslendirme ve Alt Yaz&#305;</a>
+      <a href="#" class="f-a">Sesli Betimleme</a>
+      <a href="#" class="f-a">Yard&#305;m Merkezi</a>
+      <a href="#" class="f-a">Hediye Kartlar&#305;</a>
+      <a href="#" class="f-a">Medya Merkezi</a>
+      <a href="#" class="f-a">Yat&#305;r&#305;mc&#305; &#304;li&#351;kileri</a>
+      <a href="#" class="f-a">&#304;&#351; &#304;mkanlar&#305;</a>
+      <a href="#" class="f-a">Kullan&#305;m Ko&#351;ullar&#305;</a>
+      <a href="#" class="f-a">Gizlilik</a>
+      <a href="#" class="f-a">Yasal H&uuml;k&uuml;mler</a>
+      <a href="#" class="f-a">&Ccedil;erez Tercihleri</a>
+      <a href="#" class="f-a">Kurumsal Bilgiler</a>
+      <a href="#" class="f-a">Bize Ula&#351;&#305;n</a>
+    </div>
+    <button class="f-btn" type="button">Hizmet Kodu</button>
+    <p class="copy">&copy; 1997-2021 Netflix, Inc. {i-062d573a0ee099242}</p>
+  </footer>
 </body>
+
 </html>
